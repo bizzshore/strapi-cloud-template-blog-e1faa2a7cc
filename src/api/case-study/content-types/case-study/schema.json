@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "case_studies",
   "info": {
     "singularName": "case-study",

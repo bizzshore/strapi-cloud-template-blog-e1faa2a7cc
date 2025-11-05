@@ -531,7 +531,7 @@ export interface ApiAuthorAuthor extends Struct.CollectionTypeSchema {
   };
 }
 
-export interface ApiCaseStudyCaseStudy extends Struct.SingleTypeSchema {
+export interface ApiCaseStudyCaseStudy extends Struct.CollectionTypeSchema {
   collectionName: 'case_studies';
   info: {
     displayName: 'Case Study';
@@ -647,7 +647,7 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
   };
 }
 
-export interface ApiProjectProject extends Struct.SingleTypeSchema {
+export interface ApiProjectProject extends Struct.CollectionTypeSchema {
   collectionName: 'projects';
   info: {
     displayName: 'Project';
